@@ -78,4 +78,4 @@ This model was trained on an imbalanced dataset with **75,036 low-risk loans** a
 The logistic regression model performed exceptionally well in identifying **healthy loans** and quite well in predicting **high-risk loans**. With an overall **accuracy of 99%**, it is a highly reliable model. However, there is a slight drop in performance for high-risk loans, particularly in terms of precision (0.84), which suggests a few false positives (predicting high-risk loans incorrectly).
 
 ### Recommendation:
-We recommend using the **logistic regression model** for credit risk prediction due to its high performance across metrics and its simplicity. That said, if the company is more concerned with accurately identifying high-risk loans (label 1), it might be worth exploring more complex models (e.g., Random Forest, XGBoost) or techniques like SMOTE to handle class imbalance.
+We recommend using the **logistic regression model** for credit risk prediction due to its high performance across metrics and its simplicity. 
